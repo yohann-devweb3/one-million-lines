@@ -1,186 +1,198 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('../fonts/glyphicons-halflings-regular.woff2');
+  }
 
-    /*---------addons---------*/
-    /*border*/
-    .br50 {
-        border-radius: 50% !important;
-    }
+.fontPreset{
+    font-family:myFirstFont!important;
+}
+/*border*/
 
-    /*flex*/
-    .fx11a {
-        flex: 1 1 auto;
-    }
+.br50 {
+    border-radius: 50% !important;
+}
 
-    /*width*/
-    .w30 {
-        width: 30% !important;
-    }
+/*flex*/
+.fx11a {
+    flex: 1 1 auto;
+}
 
-    .w360p {
-        width: 360px !important;
-    }
+/*width*/
+.w30 {
+    width: 30% !important;
+}
 
-    /*font size*/
-    .fs16p {
-        font-size: 16px !important;
-    }
-    .fs25p {
-        font-size: 25px !important;
-    }
-    .fs20p {
-        font-size: 20px !important;
-    }
+.w360p {
+    width: 360px !important;
+}
 
-    .fs75p {
-        font-size: 75px !important;
-    }
+/*font size*/
+.fs16p {
+    font-size: 16px !important;
+}
 
-    .fs33p {
-        font-size: 33px !important;
-    }
+.fs25p {
+    font-size: 25px !important;
+}
 
-    .fs29p {
-        font-size: 29px !important;
-    }
+.fs20p {
+    font-size: 20px !important;
+}
 
-    .fs55p {
-        font-size: 55px !important;
-    }
+.fs75p {
+    font-size: 75px !important;
+}
 
-    /* bold */
+.fs33p {
+    font-size: 33px !important;
+}
 
-    .font-weight-bold {
+.fs29p {
+    font-size: 29px !important;
+}
 
-        font-weight: 700 !important;
-    }
+.fs55p {
+    font-size: 55px !important;
+}
 
-    /*align*/
-    .text-justified {
-        text-align: justify !important;
-    }
+/* bold */
 
-    .text-center {
-        text-align: center !important;
-    }
+.font-weight-bold {
 
-    /*padding & margin*/
-    .pt55p {
-        padding-top: 55px !important;
-    }
+    font-weight: 700 !important;
+}
 
-    .pb45p {
-        padding-bottom: 45px !important;
-    }
+/*align*/
+.text-justified {
+    text-align: justify !important;
+}
 
-    .mb15p {
-        margin-bottom: 15px !important;
-    }
+.text-center {
+    text-align: center !important;
+}
 
-    .mb25p {
-        margin-bottom: 25px !important;
-    }
+/*padding & margin*/
+.pt55p {
+    padding-top: 55px !important;
+}
 
-    .pt60p {
-        padding-top: 60px !important;
-    }
+.pb45p {
+    padding-bottom: 45px !important;
+}
 
-    .mt30p {
-        margin-top: 30px !important;
-    }
+.mb15p {
+    margin-bottom: 15px !important;
+}
 
-    .mb30p {
-        margin-bottom: 30px !important;
-    }
+.mb25p {
+    margin-bottom: 25px !important;
+}
 
-    .mt40p {
-        margin-top: 40px !important;
-    }
+.pt60p {
+    padding-top: 60px !important;
+}
 
-    .mt70p {
-        margin-top: 70px !important;
-    }
+.mt30p {
+    margin-top: 30px !important;
+}
 
-    .mr20p {
-        margin-right: 20px !important;
-    }
+.mb30p {
+    margin-bottom: 30px !important;
+}
 
-    .pt16p {
-        padding-top: 16px !important;
-    }
+.mt40p {
+    margin-top: 40px !important;
+}
 
-    .mt25p {
-        margin-top: 25px !important;
-    }
+.mt70p {
+    margin-top: 70px !important;
+}
 
-    .pt25p {
-        padding-top: 25px !important;
-    }
-    .pr45 {
-        padding-right: 45% !important;
-    }
-    .pl45 {
-        padding-left: 45% !important;
-    }
-    .pr10 {
-        padding-right: 10% !important;
-    }
+.mr20p {
+    margin-right: 20px !important;
+}
 
-    .pl10 {
-        padding-left: 10% !important;
-    }
+.pt16p {
+    padding-top: 16px !important;
+}
 
-    .pr20 {
-        padding-right: 20% !important;
-    }
+.mt25p {
+    margin-top: 25px !important;
+}
 
-    .pl20 {
-        padding-left: 20% !important;
-    }
+.pt25p {
+    padding-top: 25px !important;
+}
 
-    /*display*/
-    .d-flex {
-        display: flex !important;
-    }
+.pr45 {
+    padding-right: 45% !important;
+}
 
-    .bg-GreyDark {
-        background-color: #333333;
-    }
+.pl45 {
+    padding-left: 45% !important;
+}
 
-    /*colors*/
-    .greyText {
-        color: #9D9D9D !important;
-    }
+.pr10 {
+    padding-right: 10% !important;
+}
 
-    .whiteText {
-        color: #FFFFFF !important;
-    }
+.pl10 {
+    padding-left: 10% !important;
+}
 
-    .orangeText {
-        color: #D9534F;
-    }
+.pr20 {
+    padding-right: 20% !important;
+}
 
-  
+.pl20 {
+    padding-left: 20% !important;
+}
 
-    /*textCase*/
-    .text-uppercase {
-        text-transform: uppercase !important;
-    }
+/*display*/
+.d-flex {
+    display: flex !important;
+}
+
+.bg-GreyDark {
+    background-color: #333333;
+}
+
+/*colors*/
+.greyText {
+    color: #9D9D9D !important;
+}
+
+.whiteText {
+    color: #FFFFFF !important;
+}
+
+.orangeText {
+    color: #D9534F;
+}
 
 
-    /*button*/
-    .btn-orange {
-        background-color: #F74C3C;
-        color: white;
-    }
 
-    .btn-orange:hover {
-        background-color: lightblue;
-        color: white;
-    }
+/*textCase*/
+.text-uppercase {
+    text-transform: uppercase !important;
+}
 
-    .orangeDText {
 
-        color: #F74C3C;
-    }
+/*button*/
+.btn-orange {
+    background-color: #F74C3C;
+    color: white;
+}
+
+.btn-orange:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.orangeDText {
+
+    color: #F74C3C;
+}
 
 
 
@@ -193,29 +205,33 @@ h4,
 h5 {
     padding: 0;
     margin: 0;
+
 }
 
 
 /*widescreen*/
-@media screen and (min-width: 1200px) 
-{
+@media screen and (min-width: 1200px) {
 
     .hr {
-       
+
         border-top: 1px solid #d9534f !important;
     }
-    .divHr{
-        padding-right: 45%!important;
-        padding-left: 45%!important;
+
+    .divHr {
+        padding-right: 45% !important;
+        padding-left: 45% !important;
     }
+
     /*-----nav---------*/
-    #divContainNav{
-        display: flex!important;
-        justify-content: space-around!important;
+    #divContainNav {
+        display: flex !important;
+        justify-content: space-around !important;
     }
-    #navMobile{
-        display: none!important;
+
+    #navMobile {
+        display: none !important;
     }
+
     #navig {
         height: 50px;
         background-color: #222222 !important;
@@ -236,12 +252,12 @@ h5 {
     /*--------------home------------*/
     .titlePromise {
         font-size: 65px !important;
-        padding-top: 55px!important;
+        padding-top: 55px !important;
     }
 
-    .promise{
-        margin-top: 70px!important;
-     }
+    .promise {
+        margin-top: 70px !important;
+    }
 
     #home {
         background-image: url('../images/hero-image.jpg');
@@ -265,25 +281,26 @@ h5 {
         text-transform: uppercase !important;
     }
 
-    .chevronBtnLearn{
+    .chevronBtnLearn {
         position: relative;
         top: 25px;
         left: 6px;
-        font-weight: bolder!important;
-        font-family: 'Cursive'!important;
+        font-weight: bolder !important;
+        font-family: 'Cursive' !important;
     }
 
-    #divBtnLearnMore{
-        margin-top: 40px!important;
+    #divBtnLearnMore {
+        margin-top: 40px !important;
         padding-left: 16px;
         padding-right: 20px;
         padding-bottom: 9px;
         padding-top: 7px;
     }
+
     /*------------------who------------------*/
     #descWho {
-        padding-left: 10%!important;
-        padding-right: 10%!important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
     }
 
     #descWho p {
@@ -324,32 +341,35 @@ h5 {
         left: 96%;
     }
 
-    #linksNav{
-        display: block!important;
+    #linksNav {
+        display: block !important;
     }
-    
+
 
 }
+
 /*-------------desktop medium-----------*/
 @media (max-width: 1199px) {
     .hr {
-       
+
         border-top: 1px solid #d9534f !important;
     }
 
-    .divHr{
-        padding-right: 45%!important;
-        padding-left: 45%!important;
+    .divHr {
+        padding-right: 45% !important;
+        padding-left: 45% !important;
     }
 
     /*-----nav---------*/
-    #divContainNav{
-        display: flex!important;
-        justify-content: space-around!important;
+    #divContainNav {
+        display: flex !important;
+        justify-content: space-around !important;
     }
-    #navMobile{
-        display: none!important;
+
+    #navMobile {
+        display: none !important;
     }
+
     #navig {
         height: 50px;
         background-color: #222222 !important;
@@ -370,12 +390,12 @@ h5 {
     /*--------------home------------*/
     .titlePromise {
         font-size: 65px !important;
-        padding-top: 55px!important;
+        padding-top: 55px !important;
     }
 
-    .promise{
-        margin-top: 70px!important;
-     }
+    .promise {
+        margin-top: 70px !important;
+    }
 
     #home {
         background-image: url('../images/hero-image.jpg');
@@ -399,26 +419,27 @@ h5 {
         text-transform: uppercase !important;
     }
 
-    .chevronBtnLearn{
+    .chevronBtnLearn {
         position: relative;
         top: 25px;
         left: 6px;
-        font-weight: bolder!important;
-        font-family: 'Cursive'!important;
+        font-weight: bolder !important;
+        font-family: 'Cursive' !important;
     }
 
-    #divBtnLearnMore{
-        margin-top: 40px!important;
+    #divBtnLearnMore {
+        margin-top: 40px !important;
 
         padding-left: 16px;
         padding-right: 20px;
         padding-bottom: 9px;
         padding-top: 7px;
     }
+
     /*------------------who------------------*/
     #descWho {
-        padding-left: 10%!important;
-        padding-right: 10%!important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
     }
 
     #descWho p {
@@ -458,29 +479,32 @@ h5 {
         top: 90%;
         right: 14px;
     }
-    #linksNav{
-        display: block!important;
+
+    #linksNav {
+        display: block !important;
     }
 }
+
 /*-------------tablettes -----------*/
 @media (max-width: 991px) {
     .hr {
-       
+
         border-top: 1px solid #d9534f !important;
     }
 
-    .divHr{
-        padding-right: 45%!important;
-        padding-left: 45%!important;
+    .divHr {
+        padding-right: 45% !important;
+        padding-left: 45% !important;
     }
 
     /*-----nav---------*/
-    #divContainNav{
-        display: flex!important;
-        justify-content: space-around!important;
+    #divContainNav {
+        display: flex !important;
+        justify-content: space-around !important;
     }
-    #navMobile{
-        display: none!important;
+
+    #navMobile {
+        display: none !important;
     }
 
     #navig {
@@ -503,12 +527,12 @@ h5 {
     /*--------------home------------*/
     .titlePromise {
         font-size: 65px !important;
-        padding-top: 55px!important;
+        padding-top: 55px !important;
     }
 
-    .promise{
-        margin-top: 70px!important;
-     }
+    .promise {
+        margin-top: 70px !important;
+    }
 
     #home {
         background-image: url('../images/hero-image.jpg');
@@ -532,28 +556,28 @@ h5 {
         text-transform: uppercase !important;
     }
 
-    .chevronBtnLearn{
+    .chevronBtnLearn {
         position: relative;
         top: 16px;
         left: 6px;
-        font-weight: bolder!important;
-        font-family: 'Cursive'!important;
+        font-weight: bolder !important;
+        font-family: 'Cursive' !important;
     }
 
-    #divBtnLearnMore{
-        margin-top: 40px!important;
+    #divBtnLearnMore {
+        margin-top: 40px !important;
         padding-left: 16px;
         padding-right: 20px;
         padding-bottom: 9px;
         padding-top: 7px;
     }
 
- 
+
 
     /*------------------who------------------*/
     #descWho {
-        padding-left: 10%!important;
-        padding-right: 10%!important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
     }
 
     #descWho p {
@@ -595,11 +619,11 @@ h5 {
         right: 14px;
     }
 
-    #linksNav{
-        display: block!important;
+    #linksNav {
+        display: block !important;
     }
 }
-   
+
 
 /*-------------smartphone -----------*/
 @media (max-width: 767px) {
@@ -612,25 +636,30 @@ h5 {
         line-height: 2em;
         vertical-align: middle;
     }
+
     .hr {
-       
+
         border-top: 3px solid #F74C3C !important;
     }
-    .divHr{
-        padding-right: 36%!important;
-        padding-left: 36%!important;
+
+    .divHr {
+        padding-right: 36% !important;
+        padding-left: 36% !important;
     }
+
     /*-----nav---------*/
-    #divContainNav{
-        display: flex!important;
-        justify-content: space-between!important;
-   
+    #divContainNav {
+        display: flex !important;
+        justify-content: space-between !important;
+
     }
-    #navMobile{
-        display: block!important;
+
+    #navMobile {
+        display: block !important;
         position: relative;
         bottom: 3px;
     }
+
     #navig {
         height: 55px;
         background-color: #222222 !important;
@@ -651,13 +680,13 @@ h5 {
     /*--------------home------------*/
     .titlePromise {
         font-size: 24px !important;
-        padding-top: 25px!important;
+        padding-top: 25px !important;
     }
 
-    .promise{
-       margin-top: 40px!important;
-       padding-left:6%!important;
-       padding-right:6%!important;
+    .promise {
+        margin-top: 40px !important;
+        padding-left: 6% !important;
+        padding-right: 6% !important;
     }
 
     #home {
@@ -682,29 +711,31 @@ h5 {
         text-transform: uppercase !important;
     }
 
-    .chevronBtnLearn{
+    .chevronBtnLearn {
         position: relative;
         top: 9px;
         left: 6px;
-        font-weight: bolder!important;
-        font-family: 'Cursive'!important;
+        font-weight: bolder !important;
+        font-family: 'Cursive' !important;
     }
 
-    #divBtnLearnMore{
-        margin-top: 30px!important;
+    #divBtnLearnMore {
+        margin-top: 30px !important;
         padding-left: 25px;
         padding-right: 25px;
         padding-bottom: 13px;
         padding-top: 7px;
         font-weight: 600;
     }
-    .fs-1{
-        font-size: x-large!important;
+
+    .fs-1 {
+        font-size: x-large !important;
     }
+
     /*------------------who------------------*/
     #descWho {
-        padding-left: 4%!important;
-        padding-right: 4%!important;
+        padding-left: 4% !important;
+        padding-right: 4% !important;
     }
 
     #descWho p {
@@ -745,7 +776,8 @@ h5 {
         top: 92%;
         right: 14px;
     }
-    #linksNav{
-        display: none!important;
+
+    #linksNav {
+        display: none !important;
     }
 }
