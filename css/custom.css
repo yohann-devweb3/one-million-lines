@@ -1,6 +1,6 @@
-
-
-.fontPreset{
+/*--------addons generique--------*/
+/*fonts*/
+.fontPreset {
     font-family: 'Roboto Slab', serif;
 }
 
@@ -221,11 +221,11 @@ h5 {
     }
 
     /*-----nav---------*/
-    .navbar{
+    .navbar {
         padding-left: 20%;
     }
 
-    .navbar-brand{
+    .navbar-brand {
         padding-right: 36%;
     }
 
@@ -256,19 +256,20 @@ h5 {
     }
 
     /*--------------home------------*/
-    #btnLearnMore{
+    #btnLearnMore {
         font-size: 12px;
         position: relative;
         top: 16px;
         left: 6px;
     }
 
-    #divChevronsLearnMore{
+    #divChevronsLearnMore {
         font-size: 12px;
         position: relative;
         top: 30px;
         left: 6px;
     }
+
     .titlePromise {
         font-size: 65px !important;
         padding-top: 55px !important;
@@ -358,19 +359,20 @@ h5 {
         position: fixed;
         top: 42%;
         left: 96%;
+        visibility: hidden;
     }
 
     #linksNav {
         display: block !important;
-      /*  flex-wrap: "";
-        flex-direction: "";
-        justify-content: -"";
+
+    }
+
+    .chevronGetInvolved {
+        font-size: 10px;
+        font-weight: bold;
         position: relative;
-        top: 0;
-        width: 100%;
-        background-color: currentColor;
-        text-align: center;
-        left: 0px;*/
+        top: -2px;
+
     }
 
 
@@ -389,11 +391,11 @@ h5 {
     }
 
     /*-----nav---------*/
-    .navbar{
+    .navbar {
         padding-left: 18%;
     }
 
-    .navbar-brand{
+    .navbar-brand {
         padding-right: 20%;
     }
 
@@ -424,12 +426,13 @@ h5 {
     }
 
     /*--------------home------------*/
-    #divChevronsLearnMore{
+    #divChevronsLearnMore {
         font-size: 12px;
         position: relative;
         top: 30px;
         left: 6px;
     }
+
     .titlePromise {
         font-size: 65px !important;
         padding-top: 55px !important;
@@ -520,10 +523,19 @@ h5 {
         position: fixed;
         top: 90%;
         right: 14px;
+        visibility: hidden;
     }
 
     #linksNav {
         display: block !important;
+    }
+
+    .chevronGetInvolved {
+        font-size: 10px;
+        font-weight: bold;
+        position: relative;
+        top: -2px;
+
     }
 }
 
@@ -540,13 +552,14 @@ h5 {
     }
 
     /*-----nav---------*/
-    .navbar{
+    .navbar {
         padding-left: 18%;
     }
 
-    .navbar-brand{
+    .navbar-brand {
         padding-right: 20%;
     }
+
     #divContainNav {
         display: flex !important;
         justify-content: space-around !important;
@@ -574,12 +587,13 @@ h5 {
     }
 
     /*--------------home------------*/
-    #divChevronsLearnMore{
+    #divChevronsLearnMore {
         font-size: 12px;
         position: relative;
         top: 25px;
         left: 6px;
     }
+
     .titlePromise {
         font-size: 65px !important;
         padding-top: 55px !important;
@@ -669,6 +683,7 @@ h5 {
     }
 
     #back-to-top {
+        visibility: hidden;
         position: fixed;
         top: 90%;
         right: 14px;
@@ -676,6 +691,14 @@ h5 {
 
     #linksNav {
         display: block !important;
+    }
+
+    .chevronGetInvolved {
+        font-size: 10px;
+        font-weight: bold;
+        position: relative;
+        top: -2px;
+
     }
 }
 
@@ -703,13 +726,14 @@ h5 {
     }
 
     /*-----nav---------*/
-    .navbar{
+    .navbar {
         padding-left: 0%;
     }
 
-    .navbar-brand{
+    .navbar-brand {
         padding-right: 0%;
     }
+
     #divContainNav {
         display: flex !important;
         justify-content: space-between !important;
@@ -718,7 +742,7 @@ h5 {
 
     #navMobile {
         display: block !important;
-       /* position: relative;
+        /* position: relative;
         bottom: 3px;*/
     }
 
@@ -740,18 +764,20 @@ h5 {
     }
 
     /*--------------home------------*/
-    #btnLearnMore{
+    #btnLearnMore {
         font-size: 12px;
         position: relative;
         top: 16px;
         left: 6px;
     }
-    #divChevronsLearnMore{
+
+    #divChevronsLearnMore {
         font-size: 8px;
         position: relative;
         top: 18px;
         left: 6px;
     }
+
     .titlePromise {
         font-size: 24px !important;
         padding-top: 25px !important;
@@ -794,6 +820,7 @@ h5 {
     }
 
     #divBtnLearnMore {
+
         margin-top: 30px !important;
         padding-left: 25px;
         padding-right: 25px;
@@ -848,13 +875,22 @@ h5 {
     }
 
     #back-to-top {
+        visibility: hidden;
         position: fixed;
         top: 92%;
         right: 14px;
     }
 
     #linksNav {
-        display: none!important;
+        display: none !important;
+
+    }
+
+    .chevronGetInvolved {
+        font-size: 10px;
+        font-weight: bold;
+        position: relative;
+        top: -2px;
 
     }
 }
