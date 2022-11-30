@@ -10,39 +10,49 @@
   <meta name="author" content="">
 
   <title>One Million Lines</title>
-
+  <link rel="stylesheet" href="./fonts/glyphicons-halflings-regular.woff2">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./fonts/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 
+
   <!-- Custom styles for this template -->
- <link href="./css/custom.css" rel="stylesheet">
+  <link href="./css/custom.css" rel="stylesheet">
+
+  <!--script-->
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
-<body>
+<body class="fontPreset" id="top-site">
   <!--nav-->
-  <nav id="navig">
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img src="./images/top-logo.png" alt="logo top"></a>
+      <button class="navbar-toggler collapsed" type="button">
+        <span class="navbar-toggler-icon navbar navbar-dark bg-dark "></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarScroll" style="">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
 
-<div class="p-3" id="divContainNav">
-  <div class="d-flex" id="divNav">
-    <div>
-      <img src="./images/top-logo.png" alt="logo top">
+          <li class="nav-item">
+            <a class="nav-link text-uppercase greyText" href="#who">who we are</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase greyText" href="#get-involved">get involved</a>
+          </li>
+
+        </ul>
+
+      </div>
     </div>
-
-  </div>
-  <div class="row d-inline-block" id="linksNav">
-    <a class="greyText mr20p" href="#who">WHO WE ARE</a>
-    <a class="greyText" href="#get-involved">GET INVOLVED</a>
-  </div>
-  <!--nav mobile-->
-  <div class="navbar-header  border rounded" id="navMobile">
-    <span class="fa-stack fs16p borderNav ">
-      <i class="fas fa  fa-stack-1x "></i>
-      <i class="fas fa fa-bars fa-stack-2x fa-inverse"></i>
-    </span>
-</div>
-</div>
-   
   </nav>
 
   <!--home-->
@@ -63,7 +73,12 @@
     </div>
 
     <div id="divBtnLearnMore" class="text-center  mb30p">
-      <button  id="btnLearnMore" class="btn-danger btn fs-1 d-inline-flex">Learn more >></button>
+      <button id="btnLearnMore" class="btn-danger  btn fs-1 d-inline-flex">Learn more
+        <div class="d-flex" id="divChevronsLearnMore">
+          <i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>
+        </div>
+
+      </button>
     </div>
 
     <div class="text-center">
@@ -77,107 +92,105 @@
       <img src="./images/academy-brand-med.png" alt="">
     </div>
     <div class="text-center orangeText mb25p mt25p">
-      <p class="font-weight-bold fs33p fontPreset">WHO WE ARE</p>
+      <p class="font-weight-bold fs33p ">WHO WE ARE</p>
     </div>
     <div class="text-center divHr">
       <hr class="hr mb30p">
     </div>
 
     <div id="descWho" class="text-center">
-      <p>We are <strong class="orangeText">Massive Academy</strong>. We aim to improve education through both method - effective
+      <p>We are <strong class="orangeText">Massive Academy</strong>. We aim to improve education through both method -
+        effective
         project-based learning - and material - by teaching skills that are applicable to improving your life today</p>
 
     </div>
   </div>
-    <!-- get-involved -->
+  <!-- get-involved -->
   <div id="get-involved" class="text-center">
-    <p class="text-uppercase text-center fs33p orangeText font-weight-bold  mb25p pt55p fontPreset"> get involved</p>
-    <div class="text-center divHr" >
+    <p class="text-uppercase text-center fs33p orangeText font-weight-bold  mb25p pt55p "> get involved</p>
+    <div class="text-center divHr">
       <hr class="hr mb30p">
     </div>
-      <!--student-->
-        <div class="d-inline-flex  text-center" id="contentGetInv">
-          <div class="fx11a ">
-            <span class="fa-stack fs55p" style="vertical-align: top;">
-              <i class="fas fa fa-circle fa-stack-2x"></i>
-              <i class="fas fa fa-light fa-user fa-stack-1x fa-inverse"></i>
-            </span>
-            <p class="text-uppercase orangeText fs29p font-weight-bold mt30p mb25p fontPreset">students</p>
-            <div class="w360 fs20p mb-3">
-              <p>Want to learn how to code? Want to help us get to 1,000,000 lines? Click the button below and we'll let you know how to get involved.</p>
-            </div>
-            <button class=" btn btn-light border orangeDText mb-5">Start Learning >></button>
-          </div>
+    <!--student-->
+    <div class="d-inline-flex  text-center" id="contentGetInv">
+      <div class="fx11a ">
+        <span class="fa-stack fs55p" style="vertical-align: top;">
+          <i class="fas fa fa-circle fa-stack-2x"></i>
+          <i class="fas fa fa-light fa-user fa-stack-1x fa-inverse"></i>
+        </span>
+        <p class="text-uppercase orangeText fs29p font-weight-bold mt30p mb25p ">students</p>
+        <div class="w360 fs20p mb-3">
+          <p>Want to learn how to code? Want to help us get to 1,000,000 lines? Click the button below and we'll let you
+            know how to get involved.</p>
+        </div>
+        <button class=" btn btn-light border orangeDText mb-5">Start Learning >></button>
+      </div>
 
-          <!--educators-->
-          <div class="fx11a">
-            <span class="fa-stack fs55p" style="vertical-align: top;">
-              <i class="fas fa fa-circle fa-stack-2x"></i>
-              <i class="fas fa fa-light fa-pencil fa-stack-1x fa-inverse"></i>
-            </span>
-            <p class="text-uppercase orangeText fs29p font-weight-bold mt30p mb25p fontPreset">educators</p>
-            <div class="w360 fs20p mb-3">
-            <p>Want to learn how to code? Want to help us get to 1,000,000 lines? Click the button below and we'll let you know how to get involved.</p>
-            </div> 
-            <button class=" btn btn-light border orangeDText mb-5">Join The Initiative >></button>
-          </div>
-
-          
-          <!--sponsors-->
-          <div class="fx11a">
-            <span class="fa-stack fs55p" style="vertical-align: top;">
-              <i class="fas fa fa-circle fa-stack-2x"></i>
-              <i class="fas fa fa-light fa-money fa-stack-1x fa-inverse"></i>
-            </span>
-            <p class="text-uppercase orangeText fs29p font-weight-bold mt30p mb25p fontPreset">sponsors</p>
-              <div class="w360 fs20p mb-3">
-                <p>Want to learn how to code? Want to help us get to 1,000,000 lines? Click the button below and we'll let you know how to get involved.</p>
-          
-              </div>
-              <button class=" btn btn-light border orangeDText mb-5">Give Support >></button>
-             </div>
+      <!--educators-->
+      <div class="fx11a">
+        <span class="fa-stack fs55p" style="vertical-align: top;">
+          <i class="fas fa fa-circle fa-stack-2x"></i>
+          <i class="fas fa fa-light fa-pencil fa-stack-1x fa-inverse"></i>
+        </span>
+        <p class="text-uppercase orangeText fs29p font-weight-bold mt30p mb25p ">educators</p>
+        <div class="w360 fs20p mb-3">
+          <p>Want to learn how to code? Want to help us get to 1,000,000 lines? Click the button below and we'll let you
+            know how to get involved.</p>
+        </div>
+        <button class=" btn btn-light border orangeDText mb-5">Join The Initiative >></button>
+      </div>
 
 
-
+      <!--sponsors-->
+      <div class="fx11a">
+        <span class="fa-stack fs55p" style="vertical-align: top;">
+          <i class="fas fa fa-circle fa-stack-2x"></i>
+          <i class="fas fa fa-light fa-money fa-stack-1x fa-inverse"></i>
+        </span>
+        <p class="text-uppercase orangeText fs29p font-weight-bold mt30p mb25p ">sponsors</p>
+        <div class="w360 fs20p mb-3">
+          <p>Want to learn how to code? Want to help us get to 1,000,000 lines? Click the button below and we'll let you
+            know how to get involved.</p>
 
         </div>
-   
-   
+        <button class=" btn btn-light border orangeDText mb-5">Give Support >></button>
+      </div>
+
+
+
+
+    </div>
+
+
   </div>
-<!-- footer -->
+  <!-- footer -->
   <footer>
     <div id="divFooter" class="pl10 pr10">
       <img src="./images/one-million-bottom-brand.png" alt="">
     </div>
 
   </footer>
-<!-- back-to-top -->
-  <div id="back-to-top" >
+  <!-- back-to-top -->
+  <div id="back-to-top">
     <span class="fa-stack fs25p" style="vertical-align: top;">
       <i class="fas fa fa-circle fa-stack-2x"></i>
-      <a href="#navig"><i class="fas fa fa-light fa-chevron-up fa-stack-1x fa-inverse"></i></a>
+      <a href="#top-site"><i class="fas fa fa-light fa-chevron-up fa-stack-1x fa-inverse"></i></a>
     </span>
   </div>
-
-  <!--script-->
-  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-$( document ).ready(function() {
-  let bool=false;
-
-  $( "#navMobile" ).click(function() {
-    if(bool===false){
-      $("#linksNav").attr('style',  'display:block!important');
-      bool=true;
-    }else{
-      $("#linksNav").attr('style',  'display:none!important');
-      bool=false;
-    }
-
-    
-  });
+  $( document ).ready(function() {
+    bool1=false;
+ 
+    $( ".navbar-toggler" ).click(function() {
+      if(bool1==false){
+        $( "#navbarScroll" ).show('1200');
+        bool1=true;
+      }else{
+        $( "#navbarScroll" ).hide('1200');
+        bool1=false;
+      }
+       
+    });
 });
 </script>
 </body>

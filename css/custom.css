@@ -1,11 +1,9 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url('../fonts/glyphicons-halflings-regular.woff2');
-  }
+
 
 .fontPreset{
-    font-family:myFirstFont!important;
+    font-family: 'Roboto Slab', serif;
 }
+
 /*border*/
 
 .br50 {
@@ -223,6 +221,14 @@ h5 {
     }
 
     /*-----nav---------*/
+    .navbar{
+        padding-left: 20%;
+    }
+
+    .navbar-brand{
+        padding-right: 36%;
+    }
+
     #divContainNav {
         display: flex !important;
         justify-content: space-around !important;
@@ -250,6 +256,19 @@ h5 {
     }
 
     /*--------------home------------*/
+    #btnLearnMore{
+        font-size: 12px;
+        position: relative;
+        top: 16px;
+        left: 6px;
+    }
+
+    #divChevronsLearnMore{
+        font-size: 12px;
+        position: relative;
+        top: 30px;
+        left: 6px;
+    }
     .titlePromise {
         font-size: 65px !important;
         padding-top: 55px !important;
@@ -343,6 +362,15 @@ h5 {
 
     #linksNav {
         display: block !important;
+      /*  flex-wrap: "";
+        flex-direction: "";
+        justify-content: -"";
+        position: relative;
+        top: 0;
+        width: 100%;
+        background-color: currentColor;
+        text-align: center;
+        left: 0px;*/
     }
 
 
@@ -361,6 +389,14 @@ h5 {
     }
 
     /*-----nav---------*/
+    .navbar{
+        padding-left: 18%;
+    }
+
+    .navbar-brand{
+        padding-right: 20%;
+    }
+
     #divContainNav {
         display: flex !important;
         justify-content: space-around !important;
@@ -388,6 +424,12 @@ h5 {
     }
 
     /*--------------home------------*/
+    #divChevronsLearnMore{
+        font-size: 12px;
+        position: relative;
+        top: 30px;
+        left: 6px;
+    }
     .titlePromise {
         font-size: 65px !important;
         padding-top: 55px !important;
@@ -498,6 +540,13 @@ h5 {
     }
 
     /*-----nav---------*/
+    .navbar{
+        padding-left: 18%;
+    }
+
+    .navbar-brand{
+        padding-right: 20%;
+    }
     #divContainNav {
         display: flex !important;
         justify-content: space-around !important;
@@ -525,6 +574,12 @@ h5 {
     }
 
     /*--------------home------------*/
+    #divChevronsLearnMore{
+        font-size: 12px;
+        position: relative;
+        top: 25px;
+        left: 6px;
+    }
     .titlePromise {
         font-size: 65px !important;
         padding-top: 55px !important;
@@ -648,6 +703,13 @@ h5 {
     }
 
     /*-----nav---------*/
+    .navbar{
+        padding-left: 0%;
+    }
+
+    .navbar-brand{
+        padding-right: 0%;
+    }
     #divContainNav {
         display: flex !important;
         justify-content: space-between !important;
@@ -656,8 +718,8 @@ h5 {
 
     #navMobile {
         display: block !important;
-        position: relative;
-        bottom: 3px;
+       /* position: relative;
+        bottom: 3px;*/
     }
 
     #navig {
@@ -678,6 +740,18 @@ h5 {
     }
 
     /*--------------home------------*/
+    #btnLearnMore{
+        font-size: 12px;
+        position: relative;
+        top: 16px;
+        left: 6px;
+    }
+    #divChevronsLearnMore{
+        font-size: 8px;
+        position: relative;
+        top: 18px;
+        left: 6px;
+    }
     .titlePromise {
         font-size: 24px !important;
         padding-top: 25px !important;
@@ -743,6 +817,7 @@ h5 {
     }
 
     /*----------------get involved----------------*/
+
     #get-involved {
         background-color: #F5F5F5;
 
@@ -768,7 +843,8 @@ h5 {
 
     #divFooter {
         position: relative;
-        top: 60%;
+        top: 44%;
+        left: -8%;
     }
 
     #back-to-top {
@@ -778,6 +854,7 @@ h5 {
     }
 
     #linksNav {
-        display: none !important;
+        display: none!important;
+
     }
 }
