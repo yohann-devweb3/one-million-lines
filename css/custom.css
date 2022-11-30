@@ -5,7 +5,6 @@
 }
 
 /*border*/
-
 .br50 {
     border-radius: 50% !important;
 }
@@ -54,7 +53,6 @@
 }
 
 /* bold */
-
 .font-weight-bold {
 
     font-weight: 700 !important;
@@ -168,13 +166,10 @@
     color: #D9534F;
 }
 
-
-
 /*textCase*/
 .text-uppercase {
     text-transform: uppercase !important;
 }
-
 
 /*button*/
 .btn-orange {
@@ -192,8 +187,7 @@
     color: #F74C3C;
 }
 
-
-
+/*set the body spacin in all of cases of medias queries*/
 body,
 p,
 h1,
@@ -205,7 +199,6 @@ h5 {
     margin: 0;
 
 }
-
 
 /*widescreen*/
 @media screen and (min-width: 1200px) {
@@ -250,7 +243,6 @@ h5 {
     }
 
     #divNav {
-
         justify-content: space-around;
         flex-wrap: wrap;
     }
@@ -343,7 +335,7 @@ h5 {
         padding-right: 10%;
     }
 
-
+    /*footer*/
     footer {
         width: 100%;
         height: 237px;
@@ -374,14 +366,11 @@ h5 {
         top: -2px;
 
     }
-
-
 }
 
 /*-------------desktop medium-----------*/
 @media (max-width: 1199px) {
     .hr {
-
         border-top: 1px solid #d9534f !important;
     }
 
@@ -420,7 +409,6 @@ h5 {
     }
 
     #divNav {
-
         justify-content: space-around;
         flex-wrap: wrap;
     }
@@ -444,7 +432,6 @@ h5 {
 
     #home {
         background-image: url('../images/hero-image.jpg');
-
     }
 
     #subTitleHome {
@@ -474,7 +461,6 @@ h5 {
 
     #divBtnLearnMore {
         margin-top: 40px !important;
-
         padding-left: 16px;
         padding-right: 20px;
         padding-bottom: 9px;
@@ -507,7 +493,7 @@ h5 {
         padding-right: 10%;
     }
 
-
+    /*footer*/
     footer {
         width: 100%;
         height: 237px;
@@ -535,14 +521,12 @@ h5 {
         font-weight: bold;
         position: relative;
         top: -2px;
-
     }
 }
 
 /*-------------tablettes -----------*/
 @media (max-width: 991px) {
     .hr {
-
         border-top: 1px solid #d9534f !important;
     }
 
@@ -581,7 +565,6 @@ h5 {
     }
 
     #divNav {
-
         justify-content: space-around;
         flex-wrap: wrap;
     }
@@ -641,8 +624,6 @@ h5 {
         padding-top: 7px;
     }
 
-
-
     /*------------------who------------------*/
     #descWho {
         padding-left: 10% !important;
@@ -656,7 +637,6 @@ h5 {
     /*----------------get involved----------------*/
     #get-involved {
         background-color: #F5F5F5;
-
     }
 
     #contentGetInv {
@@ -667,10 +647,9 @@ h5 {
         align-items: flex-end;
         padding-left: 10%;
         padding-right: 10%;
-
     }
 
-
+    /*footer*/
     footer {
         width: 100%;
         height: 237px;
@@ -698,10 +677,8 @@ h5 {
         font-weight: bold;
         position: relative;
         top: -2px;
-
     }
 }
-
 
 /*-------------smartphone -----------*/
 @media (max-width: 767px) {
@@ -716,7 +693,6 @@ h5 {
     }
 
     .hr {
-
         border-top: 3px solid #F74C3C !important;
     }
 
@@ -737,13 +713,10 @@ h5 {
     #divContainNav {
         display: flex !important;
         justify-content: space-between !important;
-
     }
 
     #navMobile {
         display: block !important;
-        /* position: relative;
-        bottom: 3px;*/
     }
 
     #navig {
@@ -758,7 +731,6 @@ h5 {
     }
 
     #divNav {
-
         justify-content: space-around;
         flex-wrap: wrap;
     }
@@ -791,7 +763,6 @@ h5 {
 
     #home {
         background-image: url('../images/hero-image.jpg');
-
     }
 
     #subTitleHome {
@@ -820,7 +791,6 @@ h5 {
     }
 
     #divBtnLearnMore {
-
         margin-top: 30px !important;
         padding-left: 25px;
         padding-right: 25px;
@@ -847,7 +817,6 @@ h5 {
 
     #get-involved {
         background-color: #F5F5F5;
-
     }
 
     #contentGetInv {
@@ -858,10 +827,9 @@ h5 {
         align-items: flex-end;
         padding-left: 10%;
         padding-right: 10%;
-
     }
 
-
+    /*footer*/
     footer {
         width: 100%;
         height: 237px;
@@ -883,7 +851,6 @@ h5 {
 
     #linksNav {
         display: none !important;
-
     }
 
     .chevronGetInvolved {
@@ -891,6 +858,5 @@ h5 {
         font-weight: bold;
         position: relative;
         top: -2px;
-
     }
 }
