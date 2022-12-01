@@ -40,7 +40,7 @@ Create the 'back-to-top' functionality: when you click on the arrow, go back to 
 
 ## Preview :
 
-This project is visible on : `https://yohann-devweb3.github.io/one-million-lines/`
+The demo is visible on : `https://yohann-devweb3.github.io/one-million-lines/`
 
 ## Authors
 Yohann HUEDRÖ
