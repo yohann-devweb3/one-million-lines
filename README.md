@@ -38,6 +38,10 @@ Create the 'back-to-top' functionality: when you click on the arrow, go back to 
 
 -Bonuses + adding one animation display on click of burger navmenu + adding animation display on the anchor 'back-to-top' when the user scrolldown
 
+## Preview :
+
+This project is visible on : `https://yohann-devweb3.github.io/one-million-lines/`
+
 ## Authors
 Yohann HUEDRÖ
 - [@yohann-devweb3](https://www.github.com/yohann-devweb3)
